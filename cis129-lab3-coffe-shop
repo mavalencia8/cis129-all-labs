@@ -1,0 +1,29 @@
+print("my coffee and muffin shop")
+print("number of coffees bought?")
+coffenumb=int(input())
+print('number of muffins bought')
+muffnumb=int(input())
+print("number of cookies bought?")
+cookiesnumb=int(input())
+  
+# summary of muffins and coffee
+muffprice=4
+coffeeprice=5
+cookiesprice=2
+
+  
+print('my coffee and muffin shop receipt')
+muffinTotal = muffnumb*muffprice
+coffeeTotal = coffenumb*coffeeprice
+cookiesTotal= cookiesnumb*cookiesprice
+subtotal = coffeeTotal+muffinTotal+cookiesTotal
+tax = .06
+total = subtotal*tax
+
+#output receipt
+print(str(coffenumb)+'coffee at $'+str(coffeeprice)+'each at:$'+str(coffeeTotal))
+print(str(muffnumb)+'muffin at $'+str(muffprice)+'each at:$'+str(muffinTotal))
+print(str(cookienumb)+'cookies at $'+str(cookiesprice)+'each at:$'+str(cookiesTotal))
+print(str(total)+'muffin + coffee and cookies')
+
+print('thank you come agian')
