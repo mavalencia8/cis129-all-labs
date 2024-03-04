@@ -1,1 +1,38 @@
-# the begging of lab 5
+# lab 5 part 1
+keepGoing = "y"
+# Declare local variables
+monthlySales = 0
+storeAmount = 0
+empAmount = 0
+salesIncrease = 0
+
+# While loop
+while keepGoing == "y":
+    # include code to get the monthly Sales
+    # include code to get the Increase in Sales
+    # include code to Calculate the Store Bonus
+    # include code to Calculate the Employee Bonus
+    # include code to print out all the results
+    print("Do you want to run the program again? (Enter y for yes).")
+    keepGoing = input()
+keepGoing = "y"
+# Declare local variables
+monthlySales = 0
+storeAmount = 0
+empAmount = 0
+salesIncrease = 0
+
+# Do-While Loop
+while True:
+    # include code to get the monthly Sales
+    # include code to get the Increase in Sales
+    # include code to Calculate the Store Bonus
+    # include code to Calculate the Employee Bonus
+    # include code to print out all the results
+    print("Do you want to run the program again? (Enter y for yes).")
+    keepGoing = input()
+    if keepGoing != "y":
+        break
+
+#lab 5 part 2
+
