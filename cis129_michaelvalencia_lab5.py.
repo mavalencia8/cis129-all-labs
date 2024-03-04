@@ -80,9 +80,7 @@ Display "Total number of bottles collected: ", totalBottles
 Display "Total payout: $", totalPayout
 
 #lab 5 part 3
-# CIS129_YourName_Lab5.py
-# Date: [current date]
-# Author: [Your Name]
+
 # Description: This program calculates the total number of bottles collected and the total payout based on user input.
 
 def main():
