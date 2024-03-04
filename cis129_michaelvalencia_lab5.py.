@@ -8,13 +8,13 @@ salesIncrease = 0
 
 # While loop
 while keepGoing == "y":
-    # include code to get the monthly Sales
-    # include code to get the Increase in Sales
-    # include code to Calculate the Store Bonus
-    # include code to Calculate the Employee Bonus
-    # include code to print out all the results
-    print("Do you want to run the program again? (Enter y for yes).")
-    keepGoing = input()
+# include code to get the monthly Sales
+# include code to get the Increase in Sales
+# include code to Calculate the Store Bonus
+# include code to Calculate the Employee Bonus
+# include code to print out all the results
+print("Do you want to run the program again? (Enter y for yes).")
+keepGoing = input()
 keepGoing = "y"
 # Declare local variables
 monthlySales = 0
@@ -24,15 +24,15 @@ salesIncrease = 0
 
 # Do-While Loop
 while True:
-    # include code to get the monthly Sales
-    # include code to get the Increase in Sales
-    # include code to Calculate the Store Bonus
-    # include code to Calculate the Employee Bonus
-    # include code to print out all the results
-    print("Do you want to run the program again? (Enter y for yes).")
-    keepGoing = input()
-    if keepGoing != "y":
-        break
+# include code to get the monthly Sales
+# include code to get the Increase in Sales
+# include code to Calculate the Store Bonus
+# include code to Calculate the Employee Bonus
+# include code to print out all the results
+print("Do you want to run the program again? (Enter y for yes).")
+keepGoing = input()
+if keepGoing != "y":
+break
 
 #lab 5 part 2
 // Step 1: Declare variables below 
@@ -44,17 +44,17 @@ keepGoing = "y"
 
 // Step 3: Loop to run program again
 While keepGoing = "y"
-    // Step 2: Code to set value of variables
+// Step 2: Code to set value of variables
     
-    // Call getBottles function to set value of totalBottles and totalPayout
-    Call getBottles
+// Call getBottles function to set value of totalBottles and totalPayout
+Call getBottles
     
-    // Code to print the number of total bottles and total payout
-    Call printInfo
+// Code to print the number of total bottles and total payout
+Call printInfo
     
-    Display "Do you want to enter another week’s worth of data?"
-    Display "(Enter y or n)"
-    Input keepGoing
+Display "Do you want to enter another week’s worth of data?"
+Display "(Enter y or n)"
+Input keepGoing
 End While
 
 // getBottles code
@@ -65,10 +65,10 @@ todayBottles = 0
 counter = 0
 
 While counter < NBR_OF_DAYS
-    Display "Enter number of bottles returned for day #", counter + 1, ":"
-    Input todayBottles
-    totalBottles = totalBottles + todayBottles
-    counter = counter + 1
+Display "Enter number of bottles returned for day #", counter + 1, ":"
+Input todayBottles
+totalBottles = totalBottles + todayBottles
+counter = counter + 1
 End While
 
 // calcPayout code
@@ -84,26 +84,24 @@ Display "Total payout: $", totalPayout
 # Description: This program calculates the total number of bottles collected and the total payout based on user input.
 
 def main():
-    # Step 1: Declare variables
-    total_bottles = 0
-    total_payout = 0
+# Step 1: Declare variables
+total_bottles = 0
+total_payout = 0
+# Step 2: Loop to run program again
+while True:
+# Step 3: Code to set value of variables
+for day in range(1, 8):
+bottles = int(input(f"Enter number of bottles for day #{day}: "))
+total_bottles += bottles
+total_payout += bottles * 0.1
+    
+# Print total bottles and total payout
+print("\nThe total number of bottles collected is", total_bottles)
+print("The total paid out is $", total_payout)
 
-    # Step 2: Loop to run program again
-    while True:
-        # Step 3: Code to set value of variables
-        for day in range(1, 8):
-            bottles = int(input(f"Enter number of bottles for day #{day}: "))
-            total_bottles += bottles
-            total_payout += bottles * 0.1
-        
-        # Print total bottles and total payout
-        print("\nThe total number of bottles collected is", total_bottles)
-        print("The total paid out is $", total_payout)
-
-        choice = input("\nDo you want to enter another week’s worth of data? (Enter y or n): ")
-        if choice.lower() != 'y':
-            break
-
+choice = input("\nDo you want to enter another week’s worth of data? (Enter y or n): ")
+if choice.lower() != 'y':
+break
 if __name__ == "__main__":
     main()
 
