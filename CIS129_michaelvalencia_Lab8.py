@@ -1,3 +1,4 @@
+
 def is_palindrome(s):
     # Function to preprocess the string
     def preprocess(s):
